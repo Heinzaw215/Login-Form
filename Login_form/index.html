@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- JavaScript Linking -->
+    <script src="ConfirmPassword.js"></script>
+    <script src="passwordVisibility.js"></script>
+    <!-- Google Fonts Linking -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <!-- CSS Linking -->
+    <link rel="stylesheet" href="Style.css">
+     <!-- Font-Awesome Linking -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="Assests/css/all.min.css">
+    <title>Login Form & Sign-Up Form</title>
+</head>
+<body>
+    <h1>Welcome, User!</h1>
+    <form action="welcome.php" method="post">
+        <i class="fa-solid fa-user fa-md" onclick="togglePassword()"></i>
+        <input type="text" placeholder="Name" required><br>
+
+        <i class="fa-solid fa-at fa-md" ></i>
+        <input type="email" placeholder="Email"
+        id="Email" required> <br>
+
+        <i class="fa-solid fa-key fa-md" ></i>
+        <input type="password" placeholder="Password"
+        id="myInput" minlength="8" required> 
+        <i class="fa-solid fa-eye fa-md" onclick="togglePassword()"></i><br>
+
+        <i class="fa-solid fa-key fa-md"></i>
+        <input type="password" placeholder="Confirm Password"
+        id="myInput" minlength="8" required>
+        <i class="fa-solid fa-eye fa-md" onclick="togglePassword()"></i><br>
+
+        <i class="fa-solid fa-phone fa-md" ></i>
+        <input type="text" placeholder="Phone Number" required><br>
+
+        <p class="mb-0 mt-4 text-center"><a href="#" type="link">Forget Password?</p></a>
+        <button type= "submit">Login
+    </form>
+</body>
+</html>

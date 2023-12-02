@@ -1,0 +1,60 @@
+body {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.7; 
+    font-family: 'Rubik', sans-serif;
+    background-image: linear-gradient(rgb(230, 64, 100),rgb(40, 60, 150));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position :center;
+}
+
+
+form {
+    margin: 5% 30%;
+    padding: 3%;
+    background-color:rgba(144, 238, 144, .25) ;
+    border:5px solid lightgreen;
+    border-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 300%;
+    color: rgb(10, 230, 250);
+}
+
+label{
+    font-size: 140%;
+    padding: 20px 10px 20px ;
+    color: rgb(10, 230, 250);
+}
+
+input,button {
+    display: inline-block;
+    margin: 1% 2% 10px;
+    font-size: 130%;
+    border: 3px solid rgb(221, 221, 34);
+    border-radius : 10px;
+    /* background-color: rgb(221, 221, 34, 0.1); */
+    color: black;
+    width: 76%;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(58, 161, 58, 0.5);
+    border: 3px solid lightgreen;
+    color: white;
+    transition: 0.5s;
+}
+
+h6 span {
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
